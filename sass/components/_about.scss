@@ -1,0 +1,8 @@
+.about {
+  @extend .flex-container;
+  &__inner {
+    border: 1px solid red;
+    display: flex;
+    flex: 0 1 1170px;
+  }
+}

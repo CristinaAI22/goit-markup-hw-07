@@ -1,0 +1,14 @@
+.what-we-do {
+  @extend .flex-container;
+  &__inner {
+    border: 1px solid red;
+    display: flex;
+    flex: 0 1 1170px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  &__title {
+    @extend .title;
+    text-align: center;
+  }
+}
