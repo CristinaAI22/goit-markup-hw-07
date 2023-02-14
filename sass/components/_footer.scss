@@ -1,0 +1,36 @@
+.footer {
+  @extend .flex-container;
+  background-color: $footer-bg-color;
+  &__inner {
+    display: flex;
+    flex: 0 1 1170px;
+    gap: 93px;
+  }
+  &__container {
+    padding: 60px 0;
+  }
+  &__subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    padding: 15px 0 20px 0;
+    text-transform: uppercase;
+  }
+}
+.footer-contact {
+  &__link {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    &:hover {
+      color: $brand-color;
+    }
+  }
+  &__link--address {
+    color: $white-color;
+  }
+}

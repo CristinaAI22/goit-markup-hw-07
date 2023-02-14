@@ -1,0 +1,33 @@
+.values {
+  display: flex;
+  gap: $gap;
+  margin-bottom: 94px;
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 100px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    max-width: 270px;
+    max-height: 120px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover {
+      border: 2px solid $brand-color;
+    }
+  }
+  &__subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: left;
+    color: $light-text;
+  }
+}

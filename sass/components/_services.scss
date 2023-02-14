@@ -1,0 +1,26 @@
+.services {
+  display: flex;
+  gap: $gap;
+  margin-bottom: 94px;
+
+  &__item {
+    flex-basis: 370px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+  }
+  &__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $white-color;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    padding: 27px;
+    text-align: center;
+    background-color: rgba(47, 48, 58, 0.8);
+  }
+}

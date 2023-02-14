@@ -5,14 +5,25 @@
 @import "../sass/components/contact";
 @import "../sass/components/hero";
 @import "../sass/components/about";
-@import "../sass/components/grid";
+@import "../sass/components/values";
 @import "../sass/components/what-we-do";
+@import "../sass/components/services";
+@import "../sass/components/our-team";
+@import "../sass/components/members";
+@import "../sass/components/social";
+@import "../sass/components/customers";
+@import "../sass/components/footer";
+@import "../sass/components/subscribe-form";
+@import "../sass/components/modal";
+@import "../sass/components/info-collect-form";
+@import "../sass/components/portofolio";
+
 body {
   font-family: "Roboto";
   letter-spacing: 0.03em;
   font-size: 18px;
   line-height: 1.66;
-  font-weight: 400px;
+  font-weight: 400;
   color: #212121;
 }
 
@@ -41,6 +52,6 @@ a {
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
-  display: inline-block;
   margin: 0 auto;
+  text-align: center;
 }
